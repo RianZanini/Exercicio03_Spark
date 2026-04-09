@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f7fb;
+    margin: 0;
+    color: #2e3a45;
+}
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+.field-group {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+label {
+    font-weight: 600;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccd6dd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2f80ed;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #2565c0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #e1e8ee;
+    text-align: left;
+}
+th {
+    background: #f6f9fc;
+}
+.message {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 8px;
+}
+.message.success {
+    background: #e7f8ec;
+    color: #217a3a;
+}
+.message.error {
+    background: #ffe3e3;
+    color: #9c2a2a;
+}
