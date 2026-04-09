@@ -13,7 +13,7 @@ Este projeto é um exemplo de um backend Java usando Spark, Maven e PostgreSQL, 
 2. Ajuste os parâmetros na classe `ProductDao` se necessário.
 3. Usuário e senha padrão usados no projeto:
    - usuário: `postgres`
-   - senha: `postgres`
+   - senha: `1234`
 
 ## Execução
 ### Usando Eclipse
